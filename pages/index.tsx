@@ -75,11 +75,9 @@ const Home: NextPage = () => {
                 <div className="profile-location-text">Hawaii</div>
               </div>
 
-              <div className={styles.infoSide}>
-                {/* Title of your NFT Collection */}
-                {/* Description of your NFT Collection */}
-                <p className={styles.description}>{contractMetadata?.description}</p>
-              </div>
+              {/* Title of your NFT Collection */}
+              {/* Description of your NFT Collection */}
+              <p className={styles.description}>{contractMetadata?.description}</p>
 
               <div className={styles.mintCompletionArea}>
                 <div className={styles.mintAreaLeft}>
